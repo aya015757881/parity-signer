@@ -1,7 +1,6 @@
 #![deny(rustdoc::broken_intra_doc_links)]
 
 use parity_scale_codec::{Decode, DecodeAll, Encode};
-use printing_balance::convert_balance_pretty;
 use sp_core::H256;
 use sp_runtime::generic::Era;
 

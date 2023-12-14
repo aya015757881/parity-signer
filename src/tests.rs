@@ -4,7 +4,7 @@ use std::str::FromStr;
 use parity_scale_codec::Decode;
 use parity_scale_codec::Encode;
 use pretty_assertions::assert_eq;
-use sp_core::H256;
+// use sp_core::H256;
 
 use subxt::{
     config::{
@@ -12,7 +12,7 @@ use subxt::{
         polkadot::PlainTip,
         PolkadotConfig,
     },
-    utils::AccountId32,
+    utils::{AccountId32, H256},
 };
 
 #[subxt::subxt(runtime_metadata_path = "for_tests/westend9111.scale")]
