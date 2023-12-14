@@ -223,19 +223,6 @@ fn tr_2() {
 
 #[test]
 fn tr_3() {
-    // From:         "5E99A91wzW6rBio1eE6vxtqn2j2pCoGazGwxM1FTEbCEMQRX",
-    // To:           "5DoW9HHuqSfpf55Ux5pLdJbHFWvbngeg8Ynhub9DrdtxmZeV",
-    // Amount:       500000000000,
-    // Nonce:        0,
-    // Tip:          1000000000,
-    // BlockHeight:  8215485,
-    // BlockHash:    "0615071566c93df347d71e05b75ed360c8d99ef8a28334ebd50d6d2f337ff87c",
-    // GenesisHash:  "6408de7737c59c238890533af25896a2c20608d8b380bb01029acb392781063e",
-    // SpecVersion:  104000,
-    // TxVersion:    24,
-    // ModuleMethod: "0500",
-    // Version:      "00",
-
     use westend9111::runtime_types::{
         pallet_balances::pallet::Call as BalancesCall, westend_runtime::Call,
     };
